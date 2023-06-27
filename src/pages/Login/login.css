@@ -1,0 +1,50 @@
+/**Parte 1 Login*/
+form{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 20px;
+    background-color: darkviolet;
+}
+h1{
+    color: #fff;
+    margin-bottom: 50px;
+}
+input{
+    width: 80%;
+    font-size: 25px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/**Parte 2 Login*/
+div{
+    width: 85%;
+    gap: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+button:hover{
+    color: #fff;
+    background-color: chocolate;
+}
